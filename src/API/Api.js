@@ -8,7 +8,8 @@ import { SetSummary } from "../redux/state-slice/summarySlice";
 
 const AxiosHeader = { headers: { "token": getToken() } }
 
-const BaseURL = "https://astask-backend.vercel.app/api/v1"
+const BaseURL = "https://astask-manager.herokuapp.com/api/v1"
+
 
 // Login API 
 
